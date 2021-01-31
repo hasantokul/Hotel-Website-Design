@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0; 
     padding: 0%;
     box-sizing: border-box;
 }
@@ -154,7 +154,7 @@ p {
     width: 60%;
     height: 100%;
     text-align: center;
-    padding: 50px 100px;
+    padding: 50px 40px;
     overflow: hidden;
 
 }
@@ -210,7 +210,7 @@ p {
 }
 
 #testimonials {
-    height: 700px;
+    
     background: url("../images/pexels-zukiman-mohamad-21787.jpg")
     no-repeat center center /cover;
     padding-top: 100px;
@@ -232,7 +232,8 @@ p {
 #testimonials .testimonial {
     padding: 20px;
     margin-bottom: 40px;
-    height: 190px;
+    height: 100%;
+    min-height: 200px;
     border-radius: 8px;
     opacity: 0.9;
 }
